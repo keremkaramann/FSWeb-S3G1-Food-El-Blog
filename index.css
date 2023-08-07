@@ -63,23 +63,23 @@ img {
 }
 .banner-img {
   border-radius: 40px;
-  height: 554px;
-  padding: 150px;
+  width: 100%;
 }
 .banner-container {
   background-color: #f5f5f5;
+  padding: 45px;
 }
 .container header nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 16px;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
   background: #e79947;
-
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
 }
 
