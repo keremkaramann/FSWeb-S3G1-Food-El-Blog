@@ -2,6 +2,9 @@
 * {
   color: #3c373b;
 }
+body {
+  margin: 0;
+}
 h1 {
   /*  font-family: "Gaegu", cursive; */
   margin: 20px 0;
@@ -49,6 +52,7 @@ p {
 */
 img {
   border-radius: 10px;
+  width: 100%;
 }
 .content-row {
   display: flex;
@@ -97,6 +101,8 @@ img {
 */
 .hakkimizda {
   margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .contact-section {
   border-top: 1px dashed black;
@@ -107,12 +113,16 @@ img {
   padding: 0;
   margin: 0 0 10px 0;
 }
+.contact-section span {
+  font-family: roboto;
+}
 
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
    line-height: 2;
 */
-.address {
+address {
   line-height: 2;
+  margin-left: 23px;
 }
 footer {
   width: 100%;
@@ -141,9 +151,8 @@ footer nav {
   text-decoration: underline;
 */
 footer {
-  margin: 10px;
+  /* margin: 10px; */
   color: black;
-  text-decoration: underline;
 }
 footer nav a:first-child {
   margin-left: 0;
@@ -153,7 +162,11 @@ footer nav a:first-child {
   color: white;
 */
 footer a {
-  color: white;
+  margin-right: 30px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
 }
 
 footer .footer-content .copyright {
